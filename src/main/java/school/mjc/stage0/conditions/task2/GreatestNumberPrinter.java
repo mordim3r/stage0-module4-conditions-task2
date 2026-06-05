@@ -4,8 +4,9 @@ public class GreatestNumberPrinter {
     public void printGreatest(int first, int second) {
         if (first>second){
             System.out.println(first);
-        } if (first<second){
+        } else if (first<second){
             System.out.println(second);
         }else System.out.println(first);
+
     }
 }
